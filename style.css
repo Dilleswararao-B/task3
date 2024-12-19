@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.one
+{    width:80%;
+    height: 50vh;
+    background: grey;
+    text-align: center;
+    margin: auto;
+    transition: 0.5s all;
+
+}
+.one h1{
+  font-size: 2rem;
+}
+.one p{
+  font-size: 1.2rem;
+}
+.one:hover{
+  width: 90%;
+  height: 40vh;
+}
+.one button{
+  color: aqua;
+  background: black;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.one button:hover{
+  background: red;
+}
